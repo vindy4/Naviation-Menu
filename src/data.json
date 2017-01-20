@@ -1,0 +1,37 @@
+{
+"navigation":[
+    {
+        "Home":"http://mysite/home.com",
+        "Contact":"http://mysite/comtact.com",
+        "AboutUS":"http:mystie/about.com",
+        "Services":"http://mystie/services.com"
+    },
+    {
+        "Catalog":"http://mysite/home/catalog",
+        "Sample2":"http://mysite/home/sample2",
+        "Sample3":"http:mystie/home/sample3",
+        "Sample4":"http:/mystie/home/sample4"
+    },
+    {
+        "Sample1":"http://mysite/Contact/Sample1",
+        "Sample2":"http://mysite/contact/sample2",
+        "Sample3":"http://mystie/contact/sample3",
+        "Sample4":"http://mystie/contact/sample4"
+    },
+    {
+        "Sample1":"http://mysite/about/Sample1",
+        "Sample2":"http://mysite/about/sample2",
+        "Sample3":"http://mystie/about/sample3",
+        "Sample4":"http://mystie/about/sample4"
+    },
+    {
+        "Sample1":"http://mysite/services/Sample1",
+        "Sample2":"http://mysite/services/sample2",
+        "Sample3":"http://mystie/services/sample3",
+        "Sample4":"http://mystie/services/sample4"
+    }
+] 
+    
+   
+}
+
