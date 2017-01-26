@@ -21,11 +21,12 @@ class SubNavigation extends React.Component{
        } // when mouse leaves the subcomponent
       
        render(){
+        const stlyeClass= "nav nav-stacked "+this.props.style;
         const subNav= myData.navigation[this.props.index+1];
         return(
             <div   onMouseOver={this.mouseEnter}
                                 onMouseLeave={this.mouseLeft}  >
-                <ul className={this.props.style} >
+                <ul className={stlyeClass} >
                         {Object.keys(subNav).map((index,value) =>{            
              return <li key={value} >        
                       <a href={subNav[index]}> {index}
@@ -47,7 +48,7 @@ class NavBar extends React.Component{
         this.mouseLeft=this.mouseLeft.bind(this);
         this.mouseEnter=this.mouseEnter.bind(this)  ;
         this.state={
-            style:"hideNav",
+            style:"hidden",
             indexNo:1
         };
     }// constructor
@@ -65,7 +66,7 @@ class NavBar extends React.Component{
     mouseLeft(){
          return(
             this.setState({
-                style:"hideNav"
+                style:"hidden"
             })
         )
     }// mouseLeft
@@ -73,8 +74,8 @@ class NavBar extends React.Component{
     render(){      
         const mainNav=myData.navigation[0];
         return(    
-        <div  className="mainNav">
-           <ul >
+        <div  >
+           <ul  className="nav nav-pills">
             {Object.keys(mainNav).map((index,value) =>{            
                return <li key={value}   
                                     onMouseLeave={this.mouseLeft}     
