@@ -1,4 +1,4 @@
-This is a simple Navigation Menu in ReactJS, I am new to react and this is my first project. Pordon me if you find the UI bit Clumsy. I had created my project with Reacts Create-app npm extension.<br/>
+This is a simple Navigation Menu in ReactJS, I am new to react and this is my first project. Pordon me if you find the UI bit clumsy. I have created my project with Reacts Create-app npm method.With this way all the necessary file are downloaded in you project and you can get started building ReactJS application within seconds<br/>
 
 <b>File structure</b>            <br/><br/>
 <b>src folder:</b> <br/>
